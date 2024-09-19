@@ -22,7 +22,7 @@ public class Controller {
         this.modelo = modelo;
         inicializarListeners();
     }
-    
+    //Inicializan los listeners de cada boton
     private void inicializarListeners() {
         vista.getIniciarButton().addActionListener(new ActionListener() {
             @Override
