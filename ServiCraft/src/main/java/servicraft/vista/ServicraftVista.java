@@ -18,7 +18,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class ServiCraft extends JFrame {
+public class ServicraftVista extends JFrame {
 
     private static final long serialVersionUID = 1L;
     private JButton iniciarButton;
@@ -33,7 +33,7 @@ public class ServiCraft extends JFrame {
     public static void main(String[] args) {
         EventQueue.invokeLater(() -> {
             try {
-                ServiCraft window = new ServiCraft();
+                ServicraftVista window = new ServicraftVista();
                 window.setVisible(true);
             } catch (Exception e) {
                 e.printStackTrace();
@@ -44,7 +44,7 @@ public class ServiCraft extends JFrame {
     /**
      * Create the application.
      */
-    public ServiCraft() {
+    public ServicraftVista() {
         initialize();
     }
 

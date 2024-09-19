@@ -11,13 +11,13 @@ import javax.swing.JOptionPane;
 import javax.swing.SwingUtilities;
 
 import servicraft.model.DockerMinecraft;
-import servicraft.vista.ServiCraft;
+import servicraft.vista.ServicraftVista;
 
 public class Controller {
-    ServiCraft vista;
+    ServicraftVista vista;
     DockerMinecraft modelo;
     
-    public Controller(ServiCraft vista, DockerMinecraft modelo) {
+    public Controller(ServicraftVista vista, DockerMinecraft modelo) {
         this.vista = vista;
         this.modelo = modelo;
         inicializarListeners();
