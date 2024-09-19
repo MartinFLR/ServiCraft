@@ -1,25 +1,40 @@
 # ServiCraft
 
-**ServiCraft** es una aplicación de escritorio que facilita la creación y gestión de un servidor de Minecraft utilizando Docker.
+ServiCraft is a desktop application that simplifies the creation and management of a Minecraft server using Docker.
 
-## Descripción
+## Description
 
-Este proyecto proporciona una interfaz gráfica sencilla para interactuar con un servidor de Minecraft. Los usuarios pueden iniciar el servidor, cerrarlo y ejecutar comandos de Docker directamente desde la aplicación.
+This project provides a user-friendly graphical interface for interacting with a Minecraft server. Users can start the server, stop it, and execute Docker commands directly from the application.
 
-## Tecnologías utilizadas
+## Technologies Used
 
-- **Java**: Lenguaje de programación utilizado para desarrollar la aplicación.
-- **Swing**: Biblioteca para la creación de interfaces gráficas.
-- **Docker**: Para la gestión del servidor de Minecraft.
+- **Java**: The programming language used to develop the application.
+- **Swing**: A library for creating graphical user interfaces.
+- **Docker**: Used for managing the Minecraft server.
 
-## Funciones
+## Features
 
-- Iniciar y detener el servidor de Minecraft con un solo clic.
-- Mostrar los registros del servidor en tiempo real.
-- Ejecutar comandos personalizados de Docker.
-- Interfaz gráfica intuitiva para facilitar el uso.
+- Start and stop the Minecraft server with a single click.
+- Display server logs in real-time.
+- Execute custom Docker commands.
+- Intuitive graphical interface for ease of use.
 
-## Instalación
-1) Instala docker https://www.docker.com/products/docker-desktop
-2) Ejecuta el jar "ServiCraft"
-3) Listo!
+## Installation
+
+1. Install Docker: [Docker Desktop](https://www.docker.com/products/docker-desktop)
+2. Run the "ServiCraft" JAR file.
+3. You're all set!
+
+## Usage
+
+- Click the **Start Server** button to launch the Minecraft server.
+- Click the **Stop Server** button to stop the server.
+- Use the **Execute Command** button to run custom Docker commands.
+
+## Contributing
+
+Feel free to fork the repository and submit pull requests. Contributions are welcome!
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
