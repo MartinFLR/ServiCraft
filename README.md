@@ -18,3 +18,8 @@ Este proyecto proporciona una interfaz gráfica sencilla para interactuar con un
 - Mostrar los registros del servidor en tiempo real.
 - Ejecutar comandos personalizados de Docker.
 - Interfaz gráfica intuitiva para facilitar el uso.
+
+## Instalación
+1) Instala docker https://www.docker.com/products/docker-desktop
+2) Ejecuta el jar "ServiCraft"
+3) Listo!
