@@ -50,6 +50,7 @@ public class Controller {
     }
     
     private void iniciarServidor() {
+    	//Comando de docker que ejecutara al iniciar el server
         String[] command = {
             "docker", "run", "-d",
             "--name", "minecraft-server",
@@ -89,7 +90,7 @@ public class Controller {
             // Verifica el estado del contenedor
             new Thread(() -> {
                 try {
-                    Thread.sleep(5000); // Espera un momento para que el servidor inicie
+                    Thread.sleep(5000);
                     String[] commandLogs = {"docker", "logs", "-f", "minecraft-server"};
                     ProcessBuilder logsBuilder = new ProcessBuilder(commandLogs);
                     Process logsProcess = logsBuilder.start();
